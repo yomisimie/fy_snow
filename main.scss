@@ -1,0 +1,76 @@
+body {
+    background: url('http://fysnow.ro/img/bg.jpg') no-repeat center / cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    left: 100px;
+    bottom: 5%;
+    position: absolute;
+    li {
+        margin: 5px 0;
+        a {
+            text-decoration: none !important;
+            font-family: 'VT323', Courier, monospace;
+            font-size: 26px;
+            font-weight: 300;
+            color: #fff;
+            transform: scaleY(0.75);
+            display: inline-block;
+            transform-origin: 0;
+            &:hover {
+                color: lightyellow;
+            }
+        }
+    }
+}
+
+.jconfirm {
+    pointer-events: none;
+    .jconfirm-bg {
+        display: none !important;
+    }
+    .jconfirm-scrollpane {
+        pointer-events: none;
+        .jconfirm-row {
+            pointer-events: none;
+            .jconfirm-cell {
+                pointer-events: none;
+                .jconfirm-holder {
+                    .container {
+                        pointer-events: all;
+                        .jconfirm-box {
+                            background: #4c5844;
+                            padding: 0 10px 10px;
+                            border-radius: 0;
+                            margin-right: 5%;
+                            max-width: 50%;
+                            .jconfirm-title-c {
+                                font-size: 18px;
+                                line-height: 30px;
+                                margin: 0;
+                                padding: 0;
+                                font-family: 'VT323', Courier, monospace;
+                                color: #fff;
+                                font-weight: 300;
+                                cursor: move;
+                            }
+                            .jconfirm-content-pane  {
+                                background: #3e4637;
+                                margin: 0;
+                                padding: 10px;
+                                width: calc(100% - 20px);
+                                color: #fff;
+                                border: inset 1px lightgray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

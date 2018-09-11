@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AirsoftCS FySnow Arena</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="jquery-confirm.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=VT323&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="container">
+        <ul class="menu">
+            <li><a onclick="clickSound();" onmouseover="hoverSound();" href="#home">Home</a></li>
+            <li><a onclick="clickSound();" onmouseover="hoverSound();" href="#despre">Despre noi</a></li>
+            <li><a onclick="clickSound();" onmouseover="hoverSound();" href="#regulament">Regulament</a></li>
+            <li><a onclick="clickSound();" onmouseover="hoverSound();" href="#evenimente">Evenimente</a></li>
+            <li><a onclick="clickSound();" onmouseover="hoverSound();" href="#rezerva">Rezervare</a></li>
+        </ul>
+    </div>
+    <footer>
+        <audio id="click-sound" src="sound/buttonclick.wav" autostart="false"></audio>
+        <audio id="hover-sound" src="sound/over.wav" autostart="false"></audio>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery-confirm.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
